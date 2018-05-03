@@ -18,7 +18,7 @@ Then run `carthage update`.
 
 ## Usage
 
-You will new to create a .xib file with a view in it. Then select the file owner in the document outline.
+You will need to create a .xib file with a view in it. Then select the file owner in the document outline.
 
 ![attributes inspector](Images/document-outline.png)
 

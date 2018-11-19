@@ -16,6 +16,16 @@ github "varvet/XibViewKit"
 
 Then run `carthage update`.
 
+### Cocoapods
+
+Make the following entry in your podfile:
+
+```
+pod 'XibViewKit'
+```
+
+Then run `pod install`.
+
 ## Usage
 
 You will need to create a .xib file with a view in it. Then select the file owner in the document outline.
@@ -40,6 +50,6 @@ class CustomView: XibView {
 }
 ```
 
-Now in your your storyboard file you can set any view to your custom class and it should appear in the interface builder and load automatically. 
+Now in your your storyboard file you can set any view to your custom class and it should appear in the interface builder and load automatically.
 
 ![attributes inspector](Images/identity-inspector-storyboard.png)

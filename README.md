@@ -21,7 +21,7 @@ Then run `carthage update`.
 Make the following entry in your podfile:
 
 ```
-pod 'XibViewKit'
+pod 'XibViewKit', :git => 'https://github.com/varvet/XibViewKit'
 ```
 
 Then run `pod install`.

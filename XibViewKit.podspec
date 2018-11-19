@@ -5,7 +5,7 @@ s.ios.deployment_target = '10.0'
 s.name = "XibViewKit"
 s.summary = "XibViewKit allows custom views to be shown in the interface builder."
 s.requires_arc = true
-s.version = "1.1"
+s.version = "1.1.1"
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 s.author = { "Cenny Davidsson" => "cenny.davidsson@varvet.com" }
